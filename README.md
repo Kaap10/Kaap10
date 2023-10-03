@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Vardhman Gupta</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kaap10&label=Profile%20views&color=0e75b6&style=flat" alt="kaap10" /> </p>
 
-- 🌱 I’m currently learning **DSA with C++**
+-  🔥 I’m Currently Learning **DSA with C++**
 
-- 📫 How to reach me **vardhmangupta2004@gmail.com**
+-  📧 How to reach me **vardhmangupta2004@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
