@@ -6,6 +6,10 @@
 🤖 Exploring <b> Machine Learning</b>
 <br>
  📫 How to reach me: <b> vardhmangupta2004@gmail.com </b>
+ <br>
+<a href="http://www.linkedin.com/in/vardhman-gupta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin/vardhman-gupta" height="30" width="40" /></a> 
+<a href="https://leetcode.com/Kap10/" target="blank"><img align="center" src="https://leetcode.com/static/images/LeetCode_logo_rvs.png" alt="leetcode/Kap10" height="40" width="40" /></a>
+
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kaap10&" alt="kaap10" /></p>
