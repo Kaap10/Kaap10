@@ -31,7 +31,15 @@
 | SalesForce UT Clone | [Code](https://github.com/Kaap10/WebD/tree/main/Mini%20Projects/Salesforce%20UI%20Clone) | ```HTML``` ```CSS``` | [Preview](https://github.com/Kaap10/WebD/blob/main/Mini%20Projects/Salesforce%20UI%20Clone/readme.md) | March 24 |
 | NETFLIX Clone | [Code](https://github.com/Kaap10/WebD/tree/main/Projects/Netflix%20Clone) | ```HTML``` ```CSS```  | [Preview](https://github.com/Kaap10/WebD/blob/main/Projects/Netflix%20Clone/readme.md) | April 24 |
 
-<br>
+<h2>⚙️ Hackathon Projects  </h2>
+
+| <h3>Name</h3> | <h3>Github Repo</h3> | <h3>Techstack</h3> | <h3>Live</h3> | <h3>TimeLine</h3> |
+|-----------|-----------|-----------|-----------|-----------|
+| Liberty Law | [Code](https://github.com/Vidya20044pps/Ctrl-Shift-N) | ```HTML``` ```CSS``` ```Js``` ```MongoDB``` | [Preview](https://github.com/Vidya20044pps/Ctrl-Shift-N) | March 24 |
+| Wie-Hack | [Code](https://github.com/Vivek87077/Wie-Hack) | ```HTML``` ```CSS``` | [Preview](https://github.com/Vivek87077/Wie-Hack) | May 24 |
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
 <h3 align="left">⭐ Connect with me on social media 📲 </h3>
 
 
@@ -44,7 +52,7 @@
 
 
 ## 📊 GitHub Stats
-| ![Amit github stats](https://github-readme-stats.vercel.app/api?username=Kaap10&show_icons=true&theme=radical) | ![Amit GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kaap10&theme=highcontrast&hide_border=false)                                                                                                           |
+| ![Kap10 github stats](https://github-readme-stats.vercel.app/api?username=Kaap10&show_icons=true&theme=radical) | ![Amit GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kaap10&theme=highcontrast&hide_border=false)                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kaap10&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false&layout=compact) | ![Github Stars](https://github-readme-stats.vercel.app/api?username=Kaap10&show_icons=true&locale=en&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats&disable_animations=true&theme=radical) |
 
