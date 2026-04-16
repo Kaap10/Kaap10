@@ -15,12 +15,12 @@
 
 ## About
 
-Final-year **B.Tech - AI & ML** student at G.L. Bajaj Institute of Technology & Management, Greater Noida — CGPA 8.2.
+Final-year **B.Tech - AI & ML** student at GLBAJAJ, Greater Noida — CGPA 8.2.
 
 I build end-to-end AI and full-stack systems with a focus on real-world impact, clean architecture, and measurable performance gains — from real-time collaborative tools to AI-powered security platforms.
 
 - Improved cloud deployment efficiency by **35%** at Dazu Services as a Full Stack Intern
-- **LeetCode Peak Rating: 1,795** · **Global Rank 238** in Weekly Contest 475
+- **LeetCode Peak Rating: 1,975** · **Global Rank 238** in Weekly Contest 475
 - **Runner-Up at Thales AcadX 2025** for innovation in cybersecurity
 - **Finalist** at Hackfest (GFG-GLBITM) & HackWithDelhi — shortlisted from 300+ teams
 - **Top Performer** — PhysicsWallah Campus Ambassador Program
