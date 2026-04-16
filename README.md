@@ -4,10 +4,9 @@
 
 ### AI/ML Engineer · Full Stack Developer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://your-portfolio-link)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vardhmangupta-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=flat&logo=github)](https://github.com/your-username)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Rating%201795-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=flat&logo=github)](https://github.com/kaap10)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Rating%201795-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/Kap10)
 [![Email](https://img.shields.io/badge/Email-vardhmangupta2004@gmail.com-EA4335?style=flat&logo=gmail)](mailto:vardhmangupta2004@gmail.com)
 
 </div>
