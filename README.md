@@ -11,17 +11,17 @@
 
 </div>
 
-<br>
 
 ## About Me
 
-Final-year **B.Tech AI/ML** student at GL Bajaj Institute of Technology and Management (**CGPA 8.2**), building **AI/ML systems, autonomous agents, and full-stack applications** with a focus on system design, reliability, and shipping real tools.
+Focused on building **AI/ML systems, autonomous agents, and full-stack applications**, with a strong interest in **system design, reliable software, and turning ideas into production-ready solutions**.
+
 
 - **LeetCode Knight** · Peak Rating **1,988** · 650+ problems solved
 - **Global Rank 144** · LeetCode Weekly Contest 444
 - **Runner-Up** · Thales AcadX 2025
 - **Runner-Up** · IIT Delhi SquareHacks 2025
-- Open to full-time roles in **SWE · AI/ML · Full Stack**
+- Open to full-time roles in **SWE · AI/ML**
 
 <br>
 
