@@ -1,17 +1,3 @@
-<div align="center">
-
-# Vardhman Gupta
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/vardhman-gupta)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/kaap10)
-[![LeetCode](https://img.shields.io/badge/LeetCode-1%2C988-FFA116?style=flat-square\&logo=leetcode\&logoColor=white)](https://leetcode.com/Kap10)
-[![Portfolio](https://img.shields.io/badge/Portfolio-6E56CF?style=flat-square\&logo=googlechrome\&logoColor=white)](https://kaap10.github.io/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square\&logo=gmail\&logoColor=white)](mailto:vardhmangupta2004@gmail.com)
-
-</div>
-
-
 ## About Me
 
 Focused on building **AI/ML systems, autonomous agents, and full-stack applications**, with a strong interest in **system design, reliable software, and turning ideas into production-ready solutions**.
