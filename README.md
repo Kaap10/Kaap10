@@ -16,7 +16,7 @@ Focused on building **AI/ML systems, autonomous agents, and full-stack applicati
 <tr>
 <td width="72%">
 
-### [build-with-ai](https://github.com/Kaap10/build-with-ai)
+### [build-with-ai](https://github.com/Kaap10/build-with-ai) | [Picado Labs](https://github.com/PicadoLabs)
 
 **Open-source · Zero-API Developer CLI**
 
@@ -47,6 +47,50 @@ Works with **ChatGPT, Claude, Gemini, Cursor, Copilot, DeepSeek, and local LLMs*
 <br>
 
 `npx build-with-ai`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td width="72%">
+
+### [AI Model Router](https://github.com/PicadoLabs/ai-model-router) | [Picado Labs](https://github.com/PicadoLabs)
+
+**Open-source · Intelligent LLM Routing Gateway**
+
+Dynamically route each request to the **best local or cloud model** using task complexity, required capabilities, quality, cost, latency, and provider reliability.
+
+**Sub-3ms routing** · **Pareto scoring** · **Hard constraint pruning** · **Fallback providers** · **Budget controls** · **Real-time telemetry**
+
+Includes a React-based **AI Traffic Control Room** for monitoring, simulation, analytics, and cost analysis.
+
+<br>
+
+[![Contribute Now](https://img.shields.io/badge/Contribute%20Now-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PicadoLabs/ai-model-router/issues)
+&nbsp;
+[![View on GitHub](https://img.shields.io/badge/View%20Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PicadoLabs/ai-model-router)
+&nbsp;
+[![PyPI](https://img.shields.io/pypi/v/model-router-cli?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/model-router-cli/)
+
+</td>
+
+<td width="28%" align="center">
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+
+[![License](https://img.shields.io/github/license/PicadoLabs/ai-model-router?style=flat-square)](https://github.com/PicadoLabs/ai-model-router)
+
+<br>
+
+`< 3ms routing`
 
 </td>
 </tr>
