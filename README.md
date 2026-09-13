@@ -1,10 +1,10 @@
 ## [About Me]
-###  [Portfolio](https://kaap10.github.io/portfolio) | [Projects](https://kaap10.github.io/projects) | [Engineering Tools](https://kaap10.github.io/tools) | [Technical Blogs](https://kaap10.github.io/blogs/intro)
+###  [Portfolio](https://kaap10.github.io/portfolio) | [Engineering Tools](https://kaap10.github.io/tools) | [Technical Blogs](https://kaap10.github.io/blogs/intro)
 
 Focused on building **AI/ML systems, autonomous agents, and full-stack applications**, with a strong interest in **system design, reliable software, and turning ideas into production-ready solutions**.
 
 ## [Open Source]
-### [Picado Labs](https://github.com/PicadoLabs) -  Open-Source AI Agent Infrastructure
+### [Picado Labs](https://github.com/PicadoLabs) |  Open-Source AI Agent Infrastructure
 > Contribute now: [All Issues](https://github.com/issues?q=org%3APicadoLabs+is%3Aissue+is%3Aopen) | [Good First Issues](https://github.com/issues?q=org%3APicadoLabs+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ## [Highlights]
