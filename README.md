@@ -13,6 +13,7 @@ Focused on building **AI/ML systems, autonomous agents, and full-stack applicati
 
 - **LeetCode Knight** · Peak Rating **1,988** · **650+ Problems Solved**  
 - **2× Hackathon Runner-Up** · Thales AcadX 2025 · IIT Delhi SquareHacks 2025
+- Open Source Contribution Orgs :  [Apache](https://github.com/apache) | [Layer5](https://github.com/layer5io) | [Microsoft](https://github.com/microsoft)
 
 </div>
 
