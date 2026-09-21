@@ -3,7 +3,7 @@
   
 ### [Open Source](https://kaap10.github.io/opensource)
 - Owner and Maintainer [@PicadoLabs](https://github.com/PicadoLabs) 
-- Maintainer and Contributor [@dynavec](https://github.com/codeforstartups/dynavec)
+- Maintainer [@dynavec](https://github.com/codeforstartups/dynavec)
 - Contributor [@Apache](https://github.com/apache/magpie) | [@Microsoft](https://github.com/microsoft/PyRIT) | [@Layer5](https://github.com/layer5io/layer5-academy)
 
 ### Contact Me
