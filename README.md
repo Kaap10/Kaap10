@@ -1,27 +1,14 @@
-## [About Me]
-###  [Portfolio](https://kaap10.github.io/portfolio) | [Engineering Tools](https://kaap10.github.io/tools) | [Technical Blogs](https://kaap10.github.io/blogs/intro)
+###  [Portfolio](https://kaap10.github.io/portfolio) 
+- Building AI agents, ML systems, and scalable software from idea to production
+  
+### [Open Source](https://kaap10.github.io/opensource)
+- Owner and Maintainer [@PicadoLabs](https://github.com/PicadoLabs) 
+- Maintainer and Contributor [@dynavec](https://github.com/codeforstartups/dynavec)
+- Contributor [@Apache](https://github.com/apache/magpie) | [@Microsoft](https://github.com/microsoft/PyRIT) | [@Layer5](https://github.com/layer5io/layer5-academy)
 
-Focused on building **AI/ML systems, autonomous agents, and full-stack applications**, with a strong interest in **system design, reliable software, and turning ideas into production-ready solutions**.
-
-## [Open Source]
-### [Picado Labs](https://github.com/PicadoLabs) |  Open-Source AI Agent Infrastructure
-> Contribute now: [All Issues](https://github.com/issues?q=org%3APicadoLabs+is%3Aissue+is%3Aopen) | [Good First Issues](https://github.com/issues?q=org%3APicadoLabs+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-
-## [Highlights]
-
+### Contact Me
 <div>
 
-- **LeetCode Knight** · Peak Rating **1,988** · **650+ Problems Solved**  
-- **2× Hackathon Runner-Up** · Thales AcadX 2025 · IIT Delhi SquareHacks 2025
-- Open Source Contribution Orgs :  [Apache](https://github.com/apache) | [Layer5](https://github.com/layer5io) | [Microsoft](https://github.com/microsoft)
-
-</div>
-
-
-## [Contact Me]
-
-<div>
-
-**[@Kap10x](https://x.com/Kap10x) · [LinkedIn](https://linkedin.com/in/vardhman-gupta) · [GitHub](https://github.com/kaap10) · [LeetCode](https://leetcode.com/Kap10) · [Email](mailto:vardhmangupta2004@gmail.com)**
+**[X](https://x.com/Kap10x) · [Email](mailto:vardhmangupta2004@gmail.com) · [LinkedIn](https://linkedin.com/in/vardhman-gupta)**
 
 </div>
