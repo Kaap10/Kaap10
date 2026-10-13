@@ -1,7 +1,7 @@
 ### [Portfolio](https://kaap10.github.io/portfolio) 
 - Building AI agents, ML systems, and scalable software from idea to production
   
-## > Open Source Contributions
+## >> Open Source Contributions
 
 <details>
 <summary><b><font size="+1">Apache Magpie</font></b> (<a href="https://github.com/apache/magpie"><code>apache/magpie</code></a>)</summary>
@@ -39,7 +39,7 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Dynavec</font></b> (<a href="https://github.com/codeforstartups/dynavec"><code>codeforstartups/dynavec</code></a>)</summary>
+<summary><b><font size="+1">dynavec</font></b> (<a href="https://github.com/codeforstartups/dynavec"><code>codeforstartups/dynavec</code></a>)</summary>
 
 <br>
 
@@ -61,22 +61,6 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Angular DevTools</font></b> (<a href="https://github.com/pangular-inspector/devtools"><code>pangular-inspector/devtools</code></a>)</summary>
-
-<br>
-
-*Angular inspection tool & MCP server for components, signals, DI, and routes*
-
-| Contribution | Impact & Key Highlights | Reference |
-| :--- | :--- | :--- |
-| **Component Tree Traversal Fix** | Resolved issue where `walkAngularTree()` dropped nested child components inside standard HTML wrapper elements (`<div>`, `<main>`, `<section>`) | [#12](https://github.com/pangular-inspector/devtools/pull/12) (fixes [#11](https://github.com/pangular-inspector/devtools/issues/11)) |
-| **MCP Clear-Recordings Tool** | Added `clear-recordings` agent tool with upfront target gating and page validation for automated inspection sessions | [#365](https://github.com/pangular-inspector/devtools/pull/365) |
-| **Route Inspector Metadata Parsing** | Added parsing and display for `redirectTo`, `title`, and custom route metadata with string escape decoding | [#10](https://github.com/pangular-inspector/devtools/pull/10) (fixes [#9](https://github.com/pangular-inspector/devtools/issues/9)) |
-| **MCP Tool Context Optimization** | Condensed tool and resource descriptions under 600 characters to conserve LLM context window tokens | [#377](https://github.com/pangular-inspector/devtools/pull/377) |
-
-</details>
-
-<details>
 <summary><b><font size="+1">SQLite Graph Memory</font></b> (<a href="https://github.com/tonydzi/sqlite-graph-memory"><code>tonydzi/sqlite-graph-memory</code></a>)</summary>
 
 <br>
@@ -89,20 +73,6 @@
 | **Concurrency Scoping & Hygiene** | Scoped temporary answer files per call to eliminate race conditions and prevented prompt pollution by suppressing stdout fallback on 0-hit queries | [#10](https://github.com/tonydzi/sqlite-graph-memory/pull/10) (closes [#9](https://github.com/tonydzi/sqlite-graph-memory/issues/9)) |
 | **Granular Error Handling via TDD** | Replaced swallowed exceptions with explicit `isError: True` diagnostics, distinguishing file I/O failures from empty recall results | [#14](https://github.com/tonydzi/sqlite-graph-memory/pull/14) (closes [#13](https://github.com/tonydzi/sqlite-graph-memory/issues/13)) |
 | **Issue Diagnostics** | Reported reproducible edge cases including stdio loop crashes on non-object JSON, masked exit codes on missing indexes, and dot-file indexing | [#22](https://github.com/tonydzi/sqlite-graph-memory/issues/22), [#23](https://github.com/tonydzi/sqlite-graph-memory/issues/23), [#25](https://github.com/tonydzi/sqlite-graph-memory/issues/25) |
-
-</details>
-
-<details>
-<summary><b><font size="+1">Monorepo Doctor</font></b> (<a href="https://github.com/santoshyadavdev/monorepo-doctor"><code>santoshyadavdev/monorepo-doctor</code></a>)</summary>
-
-<br>
-
-*AI agent auditing tool for JS/TS monorepos (Nx, Turborepo, pnpm/npm/yarn/bun)*
-
-| Contribution | Impact & Key Highlights | Reference |
-| :--- | :--- | :--- |
-| **Scanner Default Import Preservation Fix** | Fixed critical bug in `scan.mjs` where mixed default imports with named type specifiers (e.g. `import React, { type FC } from 'react'`) were falsely marked as type-only and dropped, preventing false negatives in circular dependency audits | [#4](https://github.com/santoshyadavdev/monorepo-doctor/pull/4) (fixes [#3](https://github.com/santoshyadavdev/monorepo-doctor/issues/3)) |
-| **Scanner Diagnostics** | Documented and filed reproduction issue detailing root cause of import discarding during workspace scans | [#3](https://github.com/santoshyadavdev/monorepo-doctor/issues/3) |
 
 </details>
 
@@ -136,5 +106,5 @@
 </details>
 
 
-## > Connect with me  
+## >> Connect with me  
 [X](https://x.com/Kap10x) · [LinkedIn](https://linkedin.com/in/vardhman-gupta) · [Email](mailto:vardhmangupta2004@gmail.com) 
