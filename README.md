@@ -1,10 +1,15 @@
-### [Portfolio](https://kaap10.github.io/portfolio) 
-- Building AI agents, ML systems, and scalable software from idea to production
-  
+## >> Building [Picado Labs](https://picadolabs.me/)
+| Project | The Problem | The Picado Edge | Contribute Now |
+|---|---|---|---|
+| [build-with-ai](https://github.com/PicadoLabs/build-with-ai) | AI coding suffers from context drift, blank-canvas paralysis, and broken code. | Zero-API CLI, 11 templates, and persistent context (1.2k downloads, 14+ Contributors). | [Issues](https://github.com/PicadoLabs/build-with-ai/issues) |
+| [AI Model Router](https://github.com/PicadoLabs/ai-model-router) | High API costs, rate limits, and unpredictable model latency. | Sub-3ms routing UI, Thompson Sampling RL (2.2k downloads). | [Issues](https://github.com/PicadoLabs/ai-model-router/issues) |
+| [Terminal Agent](https://github.com/PicadoLabs/terminal-agent) | Autonomous agents make unverified changes and break builds. | Sandboxing, 12 core tools, self-healing, and checkpoint rollback. | [Issues](https://github.com/PicadoLabs/terminal-agent/issues) |
+| [AgentBench](https://github.com/PicadoLabs/agent-bench) | Existing benchmarks struggle to evaluate multi-turn agents across providers. | 12 benchmarks, local Ollama, GitHub PR ingestion, and 5D scoring. | [Issues](https://github.com/PicadoLabs/agent-bench/issues) |
+
 ## >> Open Source Contributions
 
 <details>
-<summary><b><font size="+1">Apache Magpie</font></b> (<a href="https://github.com/apache/magpie"><code>apache/magpie</code></a>)</summary>
+<summary><b><font size="+1">Apache Magpie</font></b> (<a href="https://github.com/apache/magpie"><code>apache/magpie</code></a>) | Core Contributor </summary>
 
 <br>
 
@@ -22,7 +27,7 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Microsoft PyRIT</font></b> (<a href="https://github.com/microsoft/PyRIT"><code>microsoft/PyRIT</code></a>)</summary>
+<summary><b><font size="+1">Microsoft PyRIT</font></b> (<a href="https://github.com/microsoft/PyRIT"><code>microsoft/PyRIT</code></a>) | Contributor </summary>
 
 <br>
 
@@ -39,7 +44,7 @@
 </details>
 
 <details>
-<summary><b><font size="+1">dynavec</font></b> (<a href="https://github.com/codeforstartups/dynavec"><code>codeforstartups/dynavec</code></a>)</summary>
+<summary><b><font size="+1">dynavec</font></b> (<a href="https://github.com/codeforstartups/dynavec"><code>codeforstartups/dynavec</code></a>) | Collaborator and Core Contributor</summary>
 
 <br>
 
@@ -61,7 +66,7 @@
 </details>
 
 <details>
-<summary><b><font size="+1">SQLite Graph Memory</font></b> (<a href="https://github.com/tonydzi/sqlite-graph-memory"><code>tonydzi/sqlite-graph-memory</code></a>)</summary>
+<summary><b><font size="+1">SQLite Graph Memory</font></b> (<a href="https://github.com/tonydzi/sqlite-graph-memory"><code>tonydzi/sqlite-graph-memory</code></a>) | Collaborator + Contributor</summary>
 
 <br>
 
@@ -77,7 +82,7 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Layer5 Academy</font></b> (<a href="https://github.com/layer5io/layer5-academy"><code>layer5io/layer5-academy</code></a>)</summary>
+<summary><b><font size="+1">Layer5 Academy</font></b> (<a href="https://github.com/layer5io/layer5-academy"><code>layer5io/layer5-academy</code></a>) | Contributor</summary>
 
 <br>
 
@@ -105,6 +110,16 @@
 
 </details>
 
+<details>
+<summary><b><font size="+1">Others</font></b></summary>
+
+| Contribution | Reference |
+| :--- | :--- |
+| **All Merged PRs** | [View All Merged PRs](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AKaap10&type=pullrequests) |
+| **Issues Authored** | [View All Authored Issues](https://github.com/search?q=is%3Aissue+author%3AKaap10&type=issues) |
+
+</details>
+
 
 ## >> Connect with me  
-[X](https://x.com/Kap10x) · [LinkedIn](https://linkedin.com/in/vardhman-gupta) · [Email](mailto:vardhmangupta2004@gmail.com) 
+[X](https://x.com/Kap10x) · [LinkedIn](https://linkedin.com/in/vardhman-gupta) · [Email](mailto:vardhmangupta2004@gmail.com) · [Portfolio](https://kaap10.github.io/portfolio) · [Blogs](https://kaap10.github.io/blogs/intro) 
