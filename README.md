@@ -16,13 +16,12 @@
 
 ## >> Open Source Contributions
 </div>
-
 <details>
-<summary><b><font size="+1">Apache Magpie</font></b> (<a href="https://github.com/apache/magpie"><code>apache/magpie</code></a>)</summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b><font size="+1">Apache Magpie</font></b></summary>
 
 <br>
 
-*Agent-assisted maintainership and vulnerability triage framework under the Apache Software Foundation (ASF)*
+*Agent-assisted maintainership and vulnerability triage framework under the Apache Software Foundation (ASF) — [`apache/magpie`](https://github.com/apache/magpie)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
@@ -40,11 +39,11 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Microsoft PyRIT</font></b> (<a href="https://github.com/microsoft/PyRIT"><code>microsoft/PyRIT</code></a>)</summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b><font size="+1">Microsoft PyRIT</font></b></summary>
 
 <br>
 
-*Python Risk Identification Tool for AI Red Teaming by Microsoft AI Red Team*
+*Python Risk Identification Tool for AI Red Teaming by Microsoft AI Red Team — [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
@@ -63,11 +62,11 @@
 </details>
 
 <details>
-<summary><b><font size="+1">dynavec</font></b> (<a href="https://github.com/codeforstartups/dynavec"><code>codeforstartups/dynavec</code></a>)</summary>
+<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b><font size="+1">dynavec</font></b></summary>
 
 <br>
 
-*Serverless hybrid vector database & agent orchestration engine on DynamoDB + S3 Vectors*
+*Serverless hybrid vector database & agent orchestration engine on DynamoDB + S3 Vectors — [`codeforstartups/dynavec`](https://github.com/codeforstartups/dynavec)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
@@ -86,27 +85,11 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Angular DevTools</font></b> (<a href="https://github.com/pangular-inspector/devtools"><code>pangular-inspector/devtools</code></a>)</summary>
+<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b><font size="+1">SQLite Graph Memory</font></b></summary>
 
 <br>
 
-*Inspection and diagnostics toolsuite for Angular components, signals, DI, and routing across browser extensions and MCP agent environments*
-
-| Contribution | Impact & Key Highlights | Reference |
-| :--- | :--- | :--- |
-| **MCP Agent Clear-Recordings Tool** | Added `clear-recordings` agent tool to reset recorded HTTP calls, router navigations, and Analog server calls between reproduction runs, with action-level gating and panel event broadcast | [#365](https://github.com/pangular-inspector/devtools/pull/365) |
-| **Component Tree Hierarchy Traversal** | Fixed DOM traversal bug in `walkAngularTree()` that aborted recursion on non-component host elements, restoring missing child components nested inside standard HTML wrappers (`<div>`, `<section>`, `<main>`) | [#12](https://github.com/pangular-inspector/devtools/pull/12) (closes [#11](https://github.com/pangular-inspector/devtools/issues/11)) |
-| **Route Metadata & Redirect Inspector** | Enhanced route extraction RPC scanner and Route Inspector UI to parse and display `redirectTo` targets, route titles, and metadata across static string and dynamic resolver declarations | [#10](https://github.com/pangular-inspector/devtools/pull/10) (closes [#9](https://github.com/pangular-inspector/devtools/issues/9)) |
-| **Configurable Lint Rule Enforcement** | Added public configuration option `lint: { rules: { [ruleName]: false } }` allowing granular rule disabling across AST template, pipe, form, route, and Analog checks in devtools, agent tools, and CI CLI exports | [#439](https://github.com/pangular-inspector/devtools/pull/439) |
-
-</details>
-
-<details>
-<summary><b><font size="+1">SQLite Graph Memory</font></b> (<a href="https://github.com/tonydzi/sqlite-graph-memory"><code>tonydzi/sqlite-graph-memory</code></a>)</summary>
-
-<br>
-
-*Graph RAG on SQLite combining vector retrieval, wikilink graphs, and cross-encoder reranking*
+*Graph RAG on SQLite combining vector retrieval, wikilink graphs, and cross-encoder reranking — [`tonydzi/sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
@@ -121,24 +104,53 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Monorepo Doctor</font></b> (<a href="https://github.com/santoshyadavdev/monorepo-doctor"><code>santoshyadavdev/monorepo-doctor</code></a>)</summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b><font size="+1">Apache Airflow</font></b></summary>
 
 <br>
 
-*AI agent skill that audits JS/TS monorepos for package boundaries, circular dependencies, caching, and CI test coverage*
+*Platform to programmatically author, schedule, and monitor workflows under the Apache Software Foundation (ASF) — [`apache/airflow`](https://github.com/apache/airflow)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
-| **Scanner Runtime Dependency Preservation** | Fixed bug where mixed default runtime imports with named type specifiers (e.g., `import Button, { type ButtonProps } from '@acme/ui'`) were discarded as type-only, eliminating false negatives in circular dependency detection, boundary checks, and undeclared workspace dependencies | [#4](https://github.com/santoshyadavdev/monorepo-doctor/pull/4) (fixes [#3](https://github.com/santoshyadavdev/monorepo-doctor/issues/3)) |
+| **Task State Store Route Exception Translation** | Implemented domain-to-HTTP exception translation in `PATCH` Task State Store route, preventing unhandled domain `ValueError` crashes and mapping them cleanly to `HTTPException(404)` with complete autospec unit tests | [#73753](https://github.com/apache/airflow/pull/73753) |
+| **Asset State Store Route Exception Translation** | Translated domain-level `ValueError`s in Asset State Store routes to `HTTPException(400)`, preventing internal server traces from leaking on invalid client requests | [#74179](https://github.com/apache/airflow/pull/74179) |
+| **Task State Store Test Suite Refinement** | Refined docstrings and strengthened assertion details across FastAPI Task State Store test suites | [#73939](https://github.com/apache/airflow/pull/73939) |
 
 </details>
 
 <details>
-<summary><b><font size="+1">Layer5 Academy</font></b> (<a href="https://github.com/layer5io/layer5-academy"><code>layer5io/layer5-academy</code></a>)</summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft AGT" /> <b><font size="+1">Microsoft Agent Governance Toolkit</font></b></summary>
 
 <br>
 
-*Interactive learning platform for cloud native management, service meshes, and Kubernetes*
+*Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents covering OWASP Agentic Top 10 — [`microsoft/agent-governance-toolkit`](https://github.com/microsoft/agent-governance-toolkit)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Hypervisor Workspace Isolation Hardening** | Fixed critical path traversal (`..`) escapes and sibling directory prefix collisions (`session-1` vs `session-10`) in `SessionScope.is_path_allowed`, enforcing strict canonical boundary checks and rejecting traversal identifiers in cross-session access grants | [#4356](https://github.com/microsoft/agent-governance-toolkit/pull/4356) (fixes [#4355](https://github.com/microsoft/agent-governance-toolkit/issues/4355)) |
+| **Hypervisor Boundary Vulnerability Disclosure** | Identified and documented traversal vulnerabilities in agent hypervisor session scoping with reproduction test cases | [#4355](https://github.com/microsoft/agent-governance-toolkit/issues/4355) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/meshery.png?size=40" width="18" height="18" alt="Meshery" /> <b><font size="+1">Meshery</font></b></summary>
+
+<br>
+
+*Cloud Native computing foundation management plane for infrastructure and service meshes — [`meshery/meshery`](https://github.com/meshery/meshery)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Code Review & Quality Assurance** | Provided code review feedback on PR [#22030](https://github.com/meshery/meshery/pull/22030) (merged), verifying responsive layout fixes and catching trailing newline and CSS bracket formatting nits in `extension-guide.html` and `edges-guide.md` | [#22030](https://github.com/meshery/meshery/pull/22030) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/layer5io.png?size=40" width="18" height="18" alt="Layer5" /> <b><font size="+1">Layer5 Academy</font></b></summary>
+
+<br>
+
+*Interactive learning platform for cloud native management, service meshes, and Kubernetes — [`layer5io/layer5-academy`](https://github.com/layer5io/layer5-academy)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
@@ -150,20 +162,92 @@
 </details>
 
 <details>
-<summary><b><font size="+1">Meshery</font></b> (<a href="https://github.com/meshery/meshery"><code>meshery/meshery</code></a>)</summary>
+<summary><img src="https://github.com/meshery-extensions.png?size=40" width="18" height="18" alt="TCS Labs" /> <b><font size="+1">TCS Labs Academy</font></b></summary>
 
 <br>
 
-*Cloud Native computing foundation management plane for infrastructure and service meshes*
+*Meshery enterprise learning labs and cloud-native service mesh tracks for TCS Labs — [`meshery-extensions/tcslabs-academy`](https://github.com/meshery-extensions/tcslabs-academy)*
 
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
-| **Code Review & Quality Assurance** | Provided code review feedback on PR [#22030](https://github.com/meshery/meshery/pull/22030) (merged), verifying responsive layout fixes and catching trailing newline and CSS bracket formatting nits in `extension-guide.html` and `edges-guide.md` | [#22030](https://github.com/meshery/meshery/pull/22030) |
+| **Service Mesh Performance Documentation Fix** | Updated outdated SMP orientation links to the canonical specification authority at `smp-spec.io` | [#70](https://github.com/meshery-extensions/tcslabs-academy/pull/70) (fixes [#69](https://github.com/meshery-extensions/tcslabs-academy/issues/69)) |
 
 </details>
 
 <details>
-<summary><b><font size="+1">Others</font></b></summary>
+<summary><img src="https://github.com/phasespace-labs.png?size=40" width="18" height="18" alt="Palinode" /> <b><font size="+1">Palinode</font></b></summary>
+
+<br>
+
+*Memory substrate for AI agents and developer tools — Git-versioned, file-native, and MCP-first — [`phasespace-labs/palinode`](https://github.com/phasespace-labs/palinode)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **POSIX Relative Path Normalization** | Normalized `to_rel_path()` in `path_guard` to enforce POSIX forward slashes (`/`) across Windows runtimes, eliminating backslash leakage across MCP tool outputs and resolving associative memory search failures | [#228](https://github.com/phasespace-labs/palinode/pull/228) (closes [#214](https://github.com/phasespace-labs/palinode/issues/214)) |
+| **Non-Signalling Win32 Process Probe** | Replaced signalling `os.kill(pid, 0)` with Win32 `OpenProcess` & `WaitForSingleObject` to probe worker process liveness on Windows without interrupting console process groups | [#215](https://github.com/phasespace-labs/palinode/pull/215) (fixes [#212](https://github.com/phasespace-labs/palinode/issues/212)) |
+| **Diagnostics Surface Hardening & AST Guard** | Cleaned up bare issue references across diagnostic health modules and implemented automated AST test guard preventing private issue numbers from leaking to user surfaces | [#207](https://github.com/phasespace-labs/palinode/pull/207) (fixes [#205](https://github.com/phasespace-labs/palinode/issues/205)) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/vllm-project.png?size=40" width="18" height="18" alt="vLLM" /> <b><font size="+1">Semantic Router</font></b></summary>
+
+<br>
+
+*Open, programmable decision layer and dynamic semantic router for LLMs and compute clusters under vLLM — [`vllm-project/semantic-router`](https://github.com/vllm-project/semantic-router)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Explicit UTF-8 Encoding for Config Pipeline** | Enforced explicit `encoding="utf-8"` across CLI configuration operations and runtime loaders, eliminating `UnicodeDecodeError` crashes on Windows and non-UTF-8 locale systems | [#5339](https://github.com/vllm-project/semantic-router/pull/5339) (closes [#5324](https://github.com/vllm-project/semantic-router/issues/5324)) |
+| **Multi-Model Shadowing & Collision Report** | Discovered and documented architectural bug where multi-model runtimes silently shadow colliding model definitions when names are omitted, causing corrupted health status tracking | [#5347](https://github.com/vllm-project/semantic-router/issues/5347) |
+| **CLI Locale Encoding Regression Report** | Identified and documented platform-specific encoding crash in configuration file parser under non-UTF-8 environments | [#5324](https://github.com/vllm-project/semantic-router/issues/5324) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/pangular-inspector.png?size=40" width="18" height="18" alt="Angular DevTools" /> <b><font size="+1">Angular DevTools</font></b></summary>
+
+<br>
+
+*Inspection and diagnostics toolsuite for Angular components, signals, DI, and routing across browser extensions and MCP agent environments — [`pangular-inspector/devtools`](https://github.com/pangular-inspector/devtools)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **MCP Agent Clear-Recordings Tool** | Added `clear-recordings` agent tool to reset recorded HTTP calls, router navigations, and Analog server calls between reproduction runs, with action-level gating and panel event broadcast | [#365](https://github.com/pangular-inspector/devtools/pull/365) |
+| **Component Tree Hierarchy Traversal** | Fixed DOM traversal bug in `walkAngularTree()` that aborted recursion on non-component host elements, restoring missing child components nested inside standard HTML wrappers (`<div>`, `<section>`, `<main>`) | [#12](https://github.com/pangular-inspector/devtools/pull/12) (closes [#11](https://github.com/pangular-inspector/devtools/issues/11)) |
+| **Route Metadata & Redirect Inspector** | Enhanced route extraction RPC scanner and Route Inspector UI to parse and display `redirectTo` targets, route titles, and metadata across static string and dynamic resolver declarations | [#10](https://github.com/pangular-inspector/devtools/pull/10) (closes [#9](https://github.com/pangular-inspector/devtools/issues/9)) |
+| **Configurable Lint Rule Enforcement** | Added public configuration option `lint: { rules: { [ruleName]: false } }` allowing granular rule disabling across AST template, pipe, form, route, and Analog checks in devtools, agent tools, and CI CLI exports | [#439](https://github.com/pangular-inspector/devtools/pull/439) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/santoshyadavdev.png?size=40" width="18" height="18" alt="Monorepo Doctor" /> <b><font size="+1">Monorepo Doctor</font></b></summary>
+
+<br>
+
+*AI agent skill that audits JS/TS monorepos for package boundaries, circular dependencies, caching, and CI test coverage — [`santoshyadavdev/monorepo-doctor`](https://github.com/santoshyadavdev/monorepo-doctor)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Scanner Runtime Dependency Preservation** | Fixed bug where mixed default runtime imports with named type specifiers (e.g., `import Button, { type ButtonProps } from '@acme/ui'`) were discarded as type-only, eliminating false negatives in circular dependency detection, boundary checks, and undeclared workspace dependencies | [#4](https://github.com/santoshyadavdev/monorepo-doctor/pull/4) (fixes [#3](https://github.com/santoshyadavdev/monorepo-doctor/issues/3)) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/PhilanthroPy-Project.png?size=40" width="18" height="18" alt="PhilanthroPy" /> <b><font size="+1">PhilanthroPy</font></b></summary>
+
+<br>
+
+*scikit-learn–native predictive analytics library for nonprofit fundraising, donor propensity, and revenue forecasting — [`PhilanthroPy-Project/PhilanthroPy`](https://github.com/PhilanthroPy-Project/PhilanthroPy)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Transformer Timezone Validation Guard** | Added unit test suite in `EncounterRecencyTransformer` guarding against invalid timezone names, ensuring accurate `KeyError` exceptions are raised instead of misleading tz-aware warnings | [#221](https://github.com/PhilanthroPy-Project/PhilanthroPy/pull/221) (closes [#204](https://github.com/PhilanthroPy-Project/PhilanthroPy/issues/204)) |
+
+</details>
+
+<details>
+<summary>🌐 <b><font size="+1">All Contributions</font></b></summary>
 
 | Contribution | Reference |
 | :--- | :--- |
@@ -171,6 +255,9 @@
 | **Issues Authored** | [View All Authored Issues](https://github.com/search?q=is%3Aissue+author%3AKaap10&type=issues) |
 
 </details>
+
+
+</div>
 
 ---
 
