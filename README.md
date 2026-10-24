@@ -17,7 +17,7 @@
 ## >> Open Source Contributions
 </div>
 <details>
-<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b><font size="+1">Apache Magpie</font></b></summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b><font size="+1">Apache Magpie - Contributor </font></b></summary>
 
 <br>
 
@@ -39,7 +39,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b><font size="+1">Microsoft PyRIT</font></b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b><font size="+1">Microsoft PyRIT - Contributor </font></b></summary>
 
 <br>
 
@@ -62,7 +62,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b><font size="+1">dynavec</font></b></summary>
+<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b><font size="+1">dynavec - Maintainer</font></b></summary>
 
 <br>
 
@@ -85,7 +85,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b><font size="+1">SQLite Graph Memory</font></b></summary>
+<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b><font size="+1">SQLite Graph Memory - Maintainer </font></b></summary>
 
 <br>
 
@@ -102,6 +102,11 @@
 | **Issue Diagnostics** | Reported reproducible regressions including dot-file indexing in note ingestion and masked exit codes on missing embedding indexes | [#25](https://github.com/tonydzi/sqlite-graph-memory/issues/25), [#23](https://github.com/tonydzi/sqlite-graph-memory/issues/23) |
 
 </details>
+
+<details>
+<summary><b><font size="+1">Other Organisations</font></b></summary>
+<br>
+
 
 <details>
 <summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b><font size="+1">Apache Airflow</font></b></summary>
@@ -255,7 +260,7 @@
 | **Issues Authored** | [View All Authored Issues](https://github.com/search?q=is%3Aissue+author%3AKaap10&type=issues) |
 
 </details>
-
+</details>
 
 </div>
 
