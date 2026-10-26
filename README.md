@@ -17,7 +17,7 @@
 ## >> Open Source Contributions
 </div>
 <details>
-<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b><font size="+1">Apache Magpie - Contributor </font></b></summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b><font size="+1">Apache Magpie</font></b></summary>
 
 <br>
 
@@ -32,14 +32,16 @@
 | **Public-Surface Security Embargo Scrub** | Built zero-token deterministic Claude Code mod hook intercepting git and gh CLI calls to prevent security embargo leaks on public surfaces (CVE references, vulnerability classes) with fail-closed safeguards | [#1676](https://github.com/apache/magpie/pull/1676) (part of [#1497](https://github.com/apache/magpie/issues/1497)) |
 | **Zero-Token Claude Code CLI Mods** | Implemented zero-token `/magpie-status` and `/magpie-skills` Claude Code mod commands, setup drift check, and architecture guidelines | [#1601](https://github.com/apache/magpie/pull/1601), [#1667](https://github.com/apache/magpie/pull/1667), [#1552](https://github.com/apache/magpie/pull/1552), [#1541](https://github.com/apache/magpie/pull/1541), [#1550](https://github.com/apache/magpie/pull/1550) |
 | **AI Agent Runtime Harnesses** | Implemented runtime adapters and guides for GitHub Copilot CLI, Aider, Goose, Ollama/vLLM (air-gapped local LLMs), and Cursor | [#1287](https://github.com/apache/magpie/pull/1287), [#1286](https://github.com/apache/magpie/pull/1286), [#1217](https://github.com/apache/magpie/pull/1217), [#1206](https://github.com/apache/magpie/pull/1206), [#1204](https://github.com/apache/magpie/pull/1204) |
+| **CI Multi-Batch Test Normalization** | Supported stdin `-` and normalized Windows path separators in `ci-pytest-batches.py`, resolving silent test drops on cross-platform CI pipelines | [#1767](https://github.com/apache/magpie/pull/1767) (closes [#1766](https://github.com/apache/magpie/issues/1766)) |
+| **Setup Doctor Probe Memory Caching** | Held diagnostic doctor probe 3 and 5 outputs in memory with regression tests to prevent repeated subprocess re-probing | [#1776](https://github.com/apache/magpie/pull/1776) (closes [#1775](https://github.com/apache/magpie/issues/1775)) |
 | **LLM Token Optimization** | Reduced skill body tokens by ~20% and cut always-on system prompt frontmatter by ~50% (~350 tokens/turn saved) across contributor growth skills | [#1487](https://github.com/apache/magpie/pull/1487), [#1489](https://github.com/apache/magpie/pull/1489), [#1481](https://github.com/apache/magpie/pull/1481), [#1482](https://github.com/apache/magpie/pull/1482), [#1483](https://github.com/apache/magpie/pull/1483) |
-| **Code Review & Quality Assurance** | Conducted architectural and security code reviews on Discourse bridge transport security boundaries ([#1755](https://github.com/apache/magpie/pull/1755)), triage staleness prompt fixes ([#1753](https://github.com/apache/magpie/pull/1753)), transient retry backoff ([#1752](https://github.com/apache/magpie/pull/1752)), Bitbucket approval writes ([#1746](https://github.com/apache/magpie/pull/1746)), and approved guides & setup preflight fixes ([#1701](https://github.com/apache/magpie/pull/1701), [#1673](https://github.com/apache/magpie/pull/1673)) | [#1755](https://github.com/apache/magpie/pull/1755), [#1753](https://github.com/apache/magpie/pull/1753), [#1752](https://github.com/apache/magpie/pull/1752), [#1746](https://github.com/apache/magpie/pull/1746), [#1701](https://github.com/apache/magpie/pull/1701), [#1673](https://github.com/apache/magpie/pull/1673) |
+| **Code Review & Quality Assurance** | Conducted architectural and security code reviews on Discourse bridge transport security boundaries ([#1755](https://github.com/apache/magpie/pull/1755)), triage staleness prompt fixes ([#1753](https://github.com/apache/magpie/pull/1753)), transient retry backoff ([#1752](https://github.com/apache/magpie/pull/1752)), Bitbucket approval writes ([#1746](https://github.com/apache/magpie/pull/1746)), CI workspace test failure enforcement ([#1807](https://github.com/apache/magpie/pull/1807)), and local archive read boundaries ([#1811](https://github.com/apache/magpie/pull/1811)) | [#1755](https://github.com/apache/magpie/pull/1755), [#1753](https://github.com/apache/magpie/pull/1753), [#1752](https://github.com/apache/magpie/pull/1752), [#1746](https://github.com/apache/magpie/pull/1746), [#1807](https://github.com/apache/magpie/pull/1807), [#1811](https://github.com/apache/magpie/pull/1811), [#1701](https://github.com/apache/magpie/pull/1701), [#1673](https://github.com/apache/magpie/pull/1673) |
 | **First-Run Setup Guides & CLI Robustness** | Added welcome onboarding guides for contributor-growth and utilities families, and fixed non-interactive TTY crashes in Vulnogram setup | [#1702](https://github.com/apache/magpie/pull/1702), [#1669](https://github.com/apache/magpie/pull/1669), [#1742](https://github.com/apache/magpie/pull/1742) |
 
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b><font size="+1">Microsoft PyRIT - Contributor </font></b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b><font size="+1">Microsoft PyRIT</font></b></summary>
 
 <br>
 
@@ -48,9 +50,11 @@
 | Contribution | Impact & Key Highlights | Reference |
 | :--- | :--- | :--- |
 | **GCG Attack Refactoring** | Decoupled Greedy Coordinate Gradient attack into typed modules (`CandidateProposer`, `CandidateEvaluator`, `ProgressiveScheduleController`) with VRAM-bounded tensor cleanup | [#2671](https://github.com/microsoft/PyRIT/pull/2671), [#2700](https://github.com/microsoft/PyRIT/pull/2700), [#2720](https://github.com/microsoft/PyRIT/pull/2720) (closes [#2665](https://github.com/microsoft/PyRIT/issues/2665)) |
+| **Modern LLM Chat Template Injection Detection** | Extended `StaticPromptInjectionScorer` to detect control and turn delimiter tokens across Meta Llama 3 (`<\|start_header_id\|>`, `<\|eot_id\|>`), Google Gemma (`<start_of_turn>`, `<end_of_turn>`), and Microsoft Phi-3/4 (`<\|end\|>`) | [#3484](https://github.com/microsoft/PyRIT/pull/3484) (fixes [#3483](https://github.com/microsoft/PyRIT/issues/3483)) |
+| **XSS Executable Data URI Detection** | Expanded `XSSOutputScorer` to detect executable and script-bearing data URIs across SVG (`image/svg+xml`) and JavaScript MIME types (`text/javascript`, `application/javascript`, `application/x-javascript`, `text/ecmascript`) across HTML tags, markdown links/images, and form actions with strict boundary safeguards | [#3400](https://github.com/microsoft/PyRIT/pull/3400) (closes [#3399](https://github.com/microsoft/PyRIT/issues/3399)) |
 | **AI & Cloud Credential Leak Detection** | Added detection patterns for OpenAI, Anthropic, and Hugging Face API keys as well as modern GitHub fine-grained PATs (`github_pat_`) in `CredentialLeakScorer` | [#3286](https://github.com/microsoft/PyRIT/pull/3286), [#3236](https://github.com/microsoft/PyRIT/pull/3236) (closes [#3285](https://github.com/microsoft/PyRIT/issues/3285), [#3235](https://github.com/microsoft/PyRIT/issues/3235)) |
 | **Piped Shell & Azure Exfiltration Detection** | Expanded `ShellCommandOutputScorer` to detect piped execution across modern shells (`zsh`, `dash`, PowerShell, `pwsh`, `iex`) and Azure CLI / environment exfiltration patterns | [#3308](https://github.com/microsoft/PyRIT/pull/3308) (closes [#3307](https://github.com/microsoft/PyRIT/issues/3307)) |
-| **XSS Executable Data URI Detection** | Expanded `XSSOutputScorer` to detect executable and script-bearing data URIs across SVG (`image/svg+xml`) and JavaScript MIME types (`text/javascript`, `application/javascript`, `application/x-javascript`, `text/ecmascript`) across HTML tags, markdown links/images, and form actions with strict boundary safeguards | [#3400](https://github.com/microsoft/PyRIT/pull/3400) (closes [#3399](https://github.com/microsoft/PyRIT/issues/3399)) |
+| **Windows Canonical Path Traversal Scorer** | Added canonical Windows proof-of-concept targets `win.ini` and IIS `web.config` with URL-encoded dot handling and strict file-end boundary validation in `PathTraversalOutputScorer` | [#3488](https://github.com/microsoft/PyRIT/pull/3488) (fixes [#3487](https://github.com/microsoft/PyRIT/issues/3487)) |
 | **Adversarial Scorer Bypass Fixes** | Extended `SSRFOutputScorer` to detect full `127.0.0.0/8` loopback block; eliminated comment syntax bypasses in `SQLInjectionOutputScorer`; and added `user:password` and IPv4 support to `OpenRedirectOutputScorer` | [#3234](https://github.com/microsoft/PyRIT/pull/3234), [#3230](https://github.com/microsoft/PyRIT/pull/3230), [#3260](https://github.com/microsoft/PyRIT/pull/3260) (closes [#3233](https://github.com/microsoft/PyRIT/issues/3233), [#3204](https://github.com/microsoft/PyRIT/issues/3204), [#3259](https://github.com/microsoft/PyRIT/issues/3259)) |
 | **URL Evasion Path Encoding** | Added configurable `safe` parameter to `UrlConverter` with default `safe=""` to enforce complete URL encoding of reserved characters including forward slashes (`/` -> `%2F`), ensuring path traversal and SSRF adversarial payloads are properly encoded for evasion testing | [#3402](https://github.com/microsoft/PyRIT/pull/3402) (closes [#3401](https://github.com/microsoft/PyRIT/issues/3401)) |
 | **RFC 9110 HTTPTarget Byte-Length Fix** | Stripped hop-by-hop framing headers (`Transfer-Encoding` & `Content-Length`) in `HTTPTarget`, preventing payload truncation on multilingual and emoji adversarial prompts | [#3008](https://github.com/microsoft/PyRIT/pull/3008) |
@@ -62,7 +66,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b><font size="+1">dynavec - Maintainer</font></b></summary>
+<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b><font size="+1">dynavec</font></b></summary>
 
 <br>
 
@@ -85,7 +89,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b><font size="+1">SQLite Graph Memory - Maintainer </font></b></summary>
+<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b><font size="+1">SQLite Graph Memory</font></b></summary>
 
 <br>
 
@@ -106,7 +110,6 @@
 <details>
 <summary><b><font size="+1">Other Organisations</font></b></summary>
 <br>
-
 
 <details>
 <summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b><font size="+1">Apache Airflow</font></b></summary>
@@ -221,7 +224,7 @@
 | **MCP Agent Clear-Recordings Tool** | Added `clear-recordings` agent tool to reset recorded HTTP calls, router navigations, and Analog server calls between reproduction runs, with action-level gating and panel event broadcast | [#365](https://github.com/pangular-inspector/devtools/pull/365) |
 | **Component Tree Hierarchy Traversal** | Fixed DOM traversal bug in `walkAngularTree()` that aborted recursion on non-component host elements, restoring missing child components nested inside standard HTML wrappers (`<div>`, `<section>`, `<main>`) | [#12](https://github.com/pangular-inspector/devtools/pull/12) (closes [#11](https://github.com/pangular-inspector/devtools/issues/11)) |
 | **Route Metadata & Redirect Inspector** | Enhanced route extraction RPC scanner and Route Inspector UI to parse and display `redirectTo` targets, route titles, and metadata across static string and dynamic resolver declarations | [#10](https://github.com/pangular-inspector/devtools/pull/10) (closes [#9](https://github.com/pangular-inspector/devtools/issues/9)) |
-| **Configurable Lint Rule Enforcement** | Added public configuration option `lint: { rules: { [ruleName]: false } }` allowing granular rule disabling across AST template, pipe, form, route, and Analog checks in devtools, agent tools, and CI CLI exports | [#439](https://github.com/pangular-inspector/devtools/pull/439) |
+| **Configurable Lint Rule Enforcement** | Added public configuration option `lint: { rules: { [ruleName]: false } }` allowing granular rule disabling across AST template, pipe, form, route, and Analog checks in devtools, agent tools, and CI CLI exports | [#439](https://github.com/pangular-inspector/devtools/pull/439) (merged via [#440](https://github.com/pangular-inspector/devtools/pull/440)) |
 
 </details>
 
@@ -260,6 +263,7 @@
 | **Issues Authored** | [View All Authored Issues](https://github.com/search?q=is%3Aissue+author%3AKaap10&type=issues) |
 
 </details>
+
 </details>
 
 </div>
