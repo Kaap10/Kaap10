@@ -7,14 +7,14 @@
 
 | Project | The Problem | The Picado Edge | Contribute Now |
 |---|---|---|---|
-| [**build-with-ai**](https://github.com/PicadoLabs/build-with-ai) | AI coding suffers from context drift, blank-canvas paralysis, and broken code. | Zero-API CLI, 11 production templates, and persistent `.buildwithai/` memory **(1.2k+ downloads • 20+ contributors)**. | [Issues](https://github.com/PicadoLabs/build-with-ai/issues) |
-| [**AI Model Router**](https://github.com/PicadoLabs/ai-model-router) | Ballooning API costs, rate limits, and unpredictable model latency. | Sub-3ms Pareto Traffic Control Room UI with Thompson Sampling RL **(3.4k+ downloads • 10+ contributors)**. | [Issues](https://github.com/PicadoLabs/ai-model-router/issues) |
-| [**Terminal Agent**](https://github.com/PicadoLabs/terminal-agent) | Autonomous coding agents make unverified changes and break repository builds. | Verify-first sandboxing (Docker/psutil), 12 core tools, self-healing, and rollback **(700+ downloads • 3+ contributors)**. | [Issues](https://github.com/PicadoLabs/terminal-agent/issues) |
-| [**AgentBench**](https://github.com/PicadoLabs/agent-bench) | Existing benchmarks test isolated toy prompts rather than multi-turn agents on codebases. | 12 polyglot benchmarks, local Ollama mode ($0 cost), GitHub PR ingestion, and 5D scoring **(3+ contributors)**. | [Issues](https://github.com/PicadoLabs/agent-bench/issues) |
+| [**build-with-ai**](https://github.com/PicadoLabs/build-with-ai) | AI coding suffers from context drift, blank-canvas paralysis, and broken code. | Zero-API CLI, 11 production templates, and persistent `.buildwithai/` memory **(1.4k+ downloads • 30+ contributors)**. | [Issues](https://github.com/PicadoLabs/build-with-ai/issues) |
+| [**AI Model Router**](https://github.com/PicadoLabs/ai-model-router) | Ballooning API costs, rate limits, and unpredictable model latency. | Sub-3ms Pareto Traffic Control Room UI with Thompson Sampling RL **(3.7k+ downloads • 13+ contributors)**. | [Issues](https://github.com/PicadoLabs/ai-model-router/issues) |
+| [**Terminal Agent**](https://github.com/PicadoLabs/terminal-agent) | Autonomous coding agents make unverified changes and break repository builds. | Verify-first sandboxing (Docker/psutil), 12 core tools, self-healing, and rollback **(1.4k+ downloads • 4+ contributors)**. | [Issues](https://github.com/PicadoLabs/terminal-agent/issues) |
+| [**Agent Bench**](https://github.com/PicadoLabs/agent-bench) | Existing benchmarks test isolated toy prompts rather than multi-turn agents on codebases. | 12 polyglot benchmarks, local Ollama mode ($0 cost), GitHub PR ingestion, and 5D scoring **(700+ downloads • 4+ contributors)**. | [Issues](https://github.com/PicadoLabs/agent-bench/issues) |
 
-<div>
+</div>
 
-## Open Source Contributions
+## > Open Source Contributions
 
 <details>
 <summary><img src="https://github.com/google.png?size=40" width="18" height="18" alt="Google" /> <b><font size="+1">Google PyTorch TPU - <i>Contributor</i></font></b></summary>
