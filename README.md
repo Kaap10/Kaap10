@@ -1,38 +1,25 @@
-<div align="center">
+### > Hi, I'm Vardhman
+I build **AI agents** and **developer tools**, work on **LLM security**, and actively contribute to **OSS**.
 
-### >> Building [Picado Labs](https://picadolabs.me/)
-**Open-source, verify-first developer infrastructure for autonomous AI software engineering.**
+- **Maintainer** · <img src="https://github.com/PicadoLabs.png?size=40" width="14" height="14" alt="PicadoLabs" /> [Picado Labs](https://github.com/PicadoLabs) 
+- **Committer** · <img src="https://github.com/apache.png?size=40" width="14" height="14" alt="Apache" /> [Apache Magpie](https://github.com/apache/magpie)
+- **Collaborator** · <img src="https://github.com/codeforstartups.png?size=40" width="14" height="14" alt="dynavec" /> [dynavec](https://github.com/codeforstartups/dynavec) & <img src="https://github.com/tonydzi.png?size=40" width="14" height="14" alt="sqlite-graph-memory" /> [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
+- **Contributor** · <img src="https://github.com/google.png?size=40" width="14" height="14" alt="Google" /> [Google PyTorch](https://github.com/google-pytorch/torch_tpu), <img src="https://github.com/microsoft.png?size=40" width="14" height="14" alt="Microsoft" /> [Microsoft PyRIT](https://github.com/microsoft/PyRIT) & <img src="https://github.com/vllm-project.png?size=40" width="14" height="14" alt="vLLM" /> [vllm-sr](https://github.com/vllm-project/semantic-router)
 
-</div>
+---
+### > Building [PicadoLabs](picadolabs.me) 
+*(6.4k+ downloads, 42+ contributors)*
+| System | Focus | Downloads | Contributors | Issues |
+| :--- | :--- | :---: | :---: | :---: |
+| [**ai-model-router**](https://github.com/PicadoLabs/ai-model-router) | Cost-aware LLM routing & RL gateway | `3.4k+` | `13+` | [Contribute now](https://github.com/PicadoLabs/ai-model-router/issues) |
+| [**build-with-ai**](https://github.com/PicadoLabs/build-with-ai) | Zero-API deterministic SDLC CLI | `1.4k+` | `28+` | [Contribute now](https://github.com/PicadoLabs/build-with-ai/issues) |
+| [**terminal-agent**](https://github.com/PicadoLabs/terminal-agent) | Verify-first sandboxed coding agent | `1.1k+` | `4+` | [Contribute now](https://github.com/PicadoLabs/terminal-agent/issues) |
+| [**agent-bench**](https://github.com/PicadoLabs/agent-bench) | Multi-turn coding agent eval suite | `550+` | `4+` | [Contribute now](https://github.com/PicadoLabs/agent-bench/issues) |
 
-| Project | The Problem | The Picado Edge | Contribute Now |
-|---|---|---|---|
-| [**build-with-ai**](https://github.com/PicadoLabs/build-with-ai) | AI coding suffers from context drift, blank-canvas paralysis, and broken code. | Zero-API CLI, 11 production templates, and persistent `.buildwithai/` memory **(1.4k+ downloads • 30+ contributors)**. | [Issues](https://github.com/PicadoLabs/build-with-ai/issues) |
-| [**AI Model Router**](https://github.com/PicadoLabs/ai-model-router) | Ballooning API costs, rate limits, and unpredictable model latency. | Sub-3ms Pareto Traffic Control Room UI with Thompson Sampling RL **(3.7k+ downloads • 13+ contributors)**. | [Issues](https://github.com/PicadoLabs/ai-model-router/issues) |
-| [**Terminal Agent**](https://github.com/PicadoLabs/terminal-agent) | Autonomous coding agents make unverified changes and break repository builds. | Verify-first sandboxing (Docker/psutil), 12 core tools, self-healing, and rollback **(1.4k+ downloads • 4+ contributors)**. | [Issues](https://github.com/PicadoLabs/terminal-agent/issues) |
-| [**Agent Bench**](https://github.com/PicadoLabs/agent-bench) | Existing benchmarks test isolated toy prompts rather than multi-turn agents on codebases. | 12 polyglot benchmarks, local Ollama mode ($0 cost), GitHub PR ingestion, and 5D scoring **(700+ downloads • 4+ contributors)**. | [Issues](https://github.com/PicadoLabs/agent-bench/issues) |
-
-</div>
-
-## > Open Source Contributions
-
+---
+### > *Open Source Contributions*
 <details>
-<summary><img src="https://github.com/google.png?size=40" width="18" height="18" alt="Google" /> <b><font size="+1">Google PyTorch TPU - <i>Contributor</i></font></b></summary>
-
-<br>
-
-*PyTorch support for Google Cloud TPUs via XLA and StableHLO — [`google-pytorch/torch_tpu`](https://github.com/google-pytorch/torch_tpu)*
-
-| Contribution | Impact & Key Highlights | Reference |
-| :--- | :--- | :--- |
-| **Bincount Non-Negative Precondition Validation & Kernel Fix** | Identified silent data corruption where negative inputs were clamped to 0 into bin 0 violating StableHLO ClampOp (§ClampOp: `min <= max`); implemented fused `at::aminmax` single TPU reduction dispatch without host synchronization penalty and added 5 targeted error unit tests | [#6199](https://github.com/google-pytorch/torch_tpu/pull/6199) (fixes [#6107](https://github.com/google-pytorch/torch_tpu/issues/6107)) |
-| **Addmv Self Shape & Dimension Validation** | Discovered missing shape/dimension validation for `self` in `csrc/ops/addmv/addmv_aten_kernels.cc` leading to unexpected broadcast shapes or internal compiler panics; validated `self` rank and broadcast compatibility with comprehensive unit tests | [#6011](https://github.com/google-pytorch/torch_tpu/pull/6011) (fixes [#6010](https://github.com/google-pytorch/torch_tpu/issues/6010)) |
-| **Dot General Contraction Dimension Mismatch Disclosure** | Discovered and documented missing vector length validation (`lhs.size(0) == rhs.size(0)`) in `torch.dot`, preventing unhandled StableHLO `DotGeneralOp` compiler errors | [#5773](https://github.com/google-pytorch/torch_tpu/issues/5773) |
-
-</details>
-
-<details>
-<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b><font size="+1">Apache Magpie - <i>Committer</i></font></b></summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b>Apache Magpie</b></summary>
 
 <br>
 
@@ -58,7 +45,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b><font size="+1">Microsoft PyRIT - <i>Contributor</i></font></b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b>Microsoft PyRIT</b></summary>
 
 <br>
 
@@ -86,7 +73,37 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b><font size="+1">dynavec - <i>Collaborator</i></font></b></summary>
+<summary><img src="https://github.com/google.png?size=40" width="18" height="18" alt="Google" /> <b>Google PyTorch TPU</b></summary>
+
+<br>
+
+*PyTorch support for Google Cloud TPUs via XLA and StableHLO — [`google-pytorch/torch_tpu`](https://github.com/google-pytorch/torch_tpu)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Bincount Non-Negative Precondition Validation & Kernel Fix** | Identified silent data corruption where negative inputs were clamped to 0 into bin 0 violating StableHLO ClampOp (§ClampOp: `min <= max`); implemented fused `at::aminmax` single TPU reduction dispatch without host synchronization penalty and added 5 targeted error unit tests | [#6199](https://github.com/google-pytorch/torch_tpu/pull/6199) (fixes [#6107](https://github.com/google-pytorch/torch_tpu/issues/6107)) |
+| **Addmv Self Shape & Dimension Validation** | Discovered missing shape/dimension validation for `self` in `csrc/ops/addmv/addmv_aten_kernels.cc` leading to unexpected broadcast shapes or internal compiler panics; validated `self` rank and broadcast compatibility with comprehensive unit tests | [#6011](https://github.com/google-pytorch/torch_tpu/pull/6011) (fixes [#6010](https://github.com/google-pytorch/torch_tpu/issues/6010)) |
+| **Dot General Contraction Dimension Mismatch Disclosure** | Discovered and documented missing vector length validation (`lhs.size(0) == rhs.size(0)`) in `torch.dot`, preventing unhandled StableHLO `DotGeneralOp` compiler errors | [#5773](https://github.com/google-pytorch/torch_tpu/issues/5773) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/vllm-project.png?size=40" width="18" height="18" alt="vLLM" /> <b>vLLM Semantic Router</b></summary>
+
+<br>
+
+*Open, programmable decision layer and dynamic semantic router for LLMs and compute clusters under vLLM — [`vllm-project/semantic-router`](https://github.com/vllm-project/semantic-router)*
+
+| Contribution | Impact & Key Highlights | Reference |
+| :--- | :--- | :--- |
+| **Explicit UTF-8 Encoding for Config Pipeline** | Enforced explicit `encoding="utf-8"` across CLI configuration operations and runtime loaders, eliminating `UnicodeDecodeError` crashes on Windows and non-UTF-8 locale systems | [#5339](https://github.com/vllm-project/semantic-router/pull/5339) (closes [#5324](https://github.com/vllm-project/semantic-router/issues/5324)) |
+| **Model Runtime Duplicate & Shadowing Prevention** | Implemented validation rejecting duplicate and colliding model entries when name is omitted in model runtime | [#5650](https://github.com/vllm-project/semantic-router/pull/5650) (fixes [#5347](https://github.com/vllm-project/semantic-router/issues/5347)) |
+| **AutoMix Cost-Aware Inversion Analysis** | Analyzed and reported AutoMix cost-aware selection bug where preference and verification bonus invert on negative expected values | [#5496](https://github.com/vllm-project/semantic-router/issues/5496) |
+
+</details>
+
+<details>
+<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b>dynavec</b></summary>
 
 <br>
 
@@ -109,7 +126,10 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b><font size="+1">SQLite Graph Memory - <i>Collaborator</i></font></b></summary>
+  <summary>Other Organisations</summary>
+
+<details>
+<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b>SQLite Graph Memory</b></summary>
 
 <br>
 
@@ -127,10 +147,9 @@
 | **Issue Diagnostics** | Reported reproducible regressions including dot-file indexing in note ingestion and masked exit codes on missing embedding indexes | [#25](https://github.com/tonydzi/sqlite-graph-memory/issues/25), [#23](https://github.com/tonydzi/sqlite-graph-memory/issues/23) |
 
 </details>
+
 <details>
-  <summary>Other Organisations</summary>
-<details>
-<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b><font size="+1">Apache Airflow</font></b></summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b>Apache Airflow</b></summary>
 
 <br>
 
@@ -146,22 +165,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/vllm-project.png?size=40" width="18" height="18" alt="vLLM" /> <b><font size="+1">vLLM Semantic Router</font></b></summary>
-
-<br>
-
-*Open, programmable decision layer and dynamic semantic router for LLMs and compute clusters under vLLM — [`vllm-project/semantic-router`](https://github.com/vllm-project/semantic-router)*
-
-| Contribution | Impact & Key Highlights | Reference |
-| :--- | :--- | :--- |
-| **Explicit UTF-8 Encoding for Config Pipeline** | Enforced explicit `encoding="utf-8"` across CLI configuration operations and runtime loaders, eliminating `UnicodeDecodeError` crashes on Windows and non-UTF-8 locale systems | [#5339](https://github.com/vllm-project/semantic-router/pull/5339) (closes [#5324](https://github.com/vllm-project/semantic-router/issues/5324)) |
-| **Model Runtime Duplicate & Shadowing Prevention** | Implemented validation rejecting duplicate and colliding model entries when name is omitted in model runtime | [#5650](https://github.com/vllm-project/semantic-router/pull/5650) (fixes [#5347](https://github.com/vllm-project/semantic-router/issues/5347)) |
-| **AutoMix Cost-Aware Inversion Analysis** | Analyzed and reported AutoMix cost-aware selection bug where preference and verification bonus invert on negative expected values | [#5496](https://github.com/vllm-project/semantic-router/issues/5496) |
-
-</details>
-
-<details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft AGT" /> <b><font size="+1">Microsoft Agent Governance Toolkit</font></b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft AGT" /> <b>Microsoft Agent Governance Toolkit</b></summary>
 
 <br>
 
@@ -175,7 +179,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft Agent Framework" /> <b><font size="+1">Microsoft Agent Framework</font></b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft Agent Framework" /> <b>Microsoft Agent Framework</b></summary>
 
 <br>
 
@@ -188,7 +192,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/phasespace-labs.png?size=40" width="18" height="18" alt="Palinode" /> <b><font size="+1">Palinode</font></b></summary>
+<summary><img src="https://github.com/phasespace-labs.png?size=40" width="18" height="18" alt="Palinode" /> <b>Palinode</b></summary>
 
 <br>
 
@@ -203,7 +207,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/pangular-inspector.png?size=40" width="18" height="18" alt="Angular DevTools" /> <b><font size="+1">Angular DevTools</font></b></summary>
+<summary><img src="https://github.com/pangular-inspector.png?size=40" width="18" height="18" alt="Angular DevTools" /> <b>Angular DevTools</b></summary>
 
 <br>
 
@@ -218,7 +222,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/santoshyadavdev.png?size=40" width="18" height="18" alt="Monorepo Doctor" /> <b><font size="+1">Monorepo Doctor</font></b></summary>
+<summary><img src="https://github.com/santoshyadavdev.png?size=40" width="18" height="18" alt="Monorepo Doctor" /> <b>Monorepo Doctor</b></summary>
 
 <br>
 
@@ -231,7 +235,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/PhilanthroPy-Project.png?size=40" width="18" height="18" alt="PhilanthroPy" /> <b><font size="+1">PhilanthroPy</font></b></summary>
+<summary><img src="https://github.com/PhilanthroPy-Project.png?size=40" width="18" height="18" alt="PhilanthroPy" /> <b>PhilanthroPy</b></summary>
 
 <br>
 
@@ -244,7 +248,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/layer5io.png?size=40" width="18" height="18" alt="Layer5" /> <b><font size="+1">Layer5 Academy</font></b></summary>
+<summary><img src="https://github.com/layer5io.png?size=40" width="18" height="18" alt="Layer5" /> <b>Layer5 Academy</b></summary>
 
 <br>
 
@@ -260,7 +264,7 @@
 </details>
 
 <details>
-<summary><img src="https://github.com/meshery-extensions.png?size=40" width="18" height="18" alt="TCS Labs" /> <b><font size="+1">TCS Labs Academy</font></b></summary>
+<summary><img src="https://github.com/meshery-extensions.png?size=40" width="18" height="18" alt="TCS Labs" /> <b>TCS Labs Academy</b></summary>
 
 <br>
 
@@ -273,7 +277,7 @@
 </details>
 
 <details>
-<summary>🌐 <b><font size="+1">All Contributions</font></b></summary>
+<summary>🌐 <b>All Contributions</b></summary>
 
 | Contribution | Reference |
 | :--- | :--- |
@@ -283,14 +287,17 @@
 </details>
 </details>
 
-</div>
-
 ---
 
 <div align="center">
 
-### >> <u>Connect</u> with me  
-[X](https://x.com/Kap10x) · [LinkedIn](https://linkedin.com/in/vardhman-gupta) · [Email](mailto:vardhmangupta2004@gmail.com) · [Portfolio](https://kaap10.github.io/portfolio) · [Technical Blogs](https://kap10.hashnode.dev/)   
+### > Connect with me
+
+[![X](https://img.shields.io/badge/X-@Kap10x-18181b?style=flat-square&logo=x&logoColor=white)](https://x.com/Kap10x)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vardhman_Gupta-18181b?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vardhman-gupta)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kaap10.github.io-18181b?style=flat-square&logo=vercel&logoColor=white)](https://kaap10.github.io/portfolio)
+[![Blog](https://img.shields.io/badge/Blogs-Hashnode-18181b?style=flat-square&logo=hashnode&logoColor=white)](https://kap10.hashnode.dev/)
+[![Email](https://img.shields.io/badge/Email-Contact-18181b?style=flat-square&logo=gmail&logoColor=white)](mailto:vardhmangupta2004@gmail.com)
 
 </div>
 
