@@ -3,8 +3,8 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 
 - **Maintainer** · [Picado Labs](https://github.com/PicadoLabs) 
 - **Committer** · [Apache Magpie](https://github.com/apache/magpie)
-- **Collaborator** · [dynavec](https://github.com/codeforstartups/dynavec) & [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
-- **Contributor** · [Google PyTorch](https://github.com/google-pytorch/torch_tpu), [Microsoft PyRIT](https://github.com/microsoft/PyRIT) & [vllm-sr](https://github.com/vllm-project/semantic-router) etc.
+- **Collaborator** · [dynavec](https://github.com/codeforstartups/dynavec) · [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
+- **Contributor** · [Google PyTorch](https://github.com/google-pytorch/torch_tpu)  ·  [Microsoft PyRIT](https://github.com/microsoft/PyRIT)  · [vllm-sr](https://github.com/vllm-project/semantic-router) etc.
 
 ---
 ### > Building [PicadoLabs](picadolabs.me) 
