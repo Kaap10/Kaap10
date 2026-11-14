@@ -1,10 +1,10 @@
 ### > Hi, I'm Vardhman
 I build **AI agents** and **developer tools**, work on **LLM security**, and actively contribute to **OSS**.
 
-- **Maintainer** · <img src="https://github.com/PicadoLabs.png?size=40" width="14" height="14" alt="PicadoLabs" /> [Picado Labs](https://github.com/PicadoLabs) 
-- **Committer** · <img src="https://github.com/apache.png?size=40" width="14" height="14" alt="Apache" /> [Apache Magpie](https://github.com/apache/magpie)
-- **Collaborator** · <img src="https://github.com/codeforstartups.png?size=40" width="14" height="14" alt="dynavec" /> [dynavec](https://github.com/codeforstartups/dynavec) & <img src="https://github.com/tonydzi.png?size=40" width="14" height="14" alt="sqlite-graph-memory" /> [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
-- **Contributor** · <img src="https://github.com/google.png?size=40" width="14" height="14" alt="Google" /> [Google PyTorch](https://github.com/google-pytorch/torch_tpu), <img src="https://github.com/microsoft.png?size=40" width="14" height="14" alt="Microsoft" /> [Microsoft PyRIT](https://github.com/microsoft/PyRIT) & <img src="https://github.com/vllm-project.png?size=40" width="14" height="14" alt="vLLM" /> [vllm-sr](https://github.com/vllm-project/semantic-router)
+- **Maintainer** · [Picado Labs](https://github.com/PicadoLabs) 
+- **Committer** · [Apache Magpie](https://github.com/apache/magpie)
+- **Collaborator** · [dynavec](https://github.com/codeforstartups/dynavec) & [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
+- **Contributor** · [Google PyTorch](https://github.com/google-pytorch/torch_tpu), [Microsoft PyRIT](https://github.com/microsoft/PyRIT) & [vllm-sr](https://github.com/vllm-project/semantic-router) etc.
 
 ---
 ### > Building [PicadoLabs](picadolabs.me) 
