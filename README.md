@@ -1,7 +1,6 @@
 ### > Hi, I'm Vardhman
 I build **AI agents** and **developer tools**, work on **LLM security**, and actively contribute to **OSS**.
 
-- **Maintainer** · [Picado Labs](https://github.com/PicadoLabs) 
 - **Committer** · [Apache Magpie](https://github.com/apache/magpie)
 - **Collaborator** · [dynavec](https://github.com/codeforstartups/dynavec) · [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
 - **Core-Contributor** · [Google PyTorch](https://github.com/google-pytorch/torch_tpu)  ·  [Microsoft PyRIT](https://github.com/microsoft/PyRIT)  
