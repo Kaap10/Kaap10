@@ -1,24 +1,24 @@
 ### > Hi, I'm Vardhman
-I build **AI agents** and **developer tools**, work on **LLM security**, and actively contribute to **OSS**.
+I build **AI agents** and **developer tools**, work on **LLM security**, and actively contribute to **OSS** (150+ Merged PRs).
 
 - **Committer** · [Apache Magpie](https://github.com/apache/magpie)
 - **Collaborator** · [dynavec](https://github.com/codeforstartups/dynavec) · [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)
-- **Core-Contributor** · [Google PyTorch](https://github.com/google-pytorch/torch_tpu)  ·  [Microsoft PyRIT](https://github.com/microsoft/PyRIT)  
+- **Core-Contributor** · [Microsoft PyRIT](https://github.com/microsoft/PyRIT) · [Google PyTorch](https://github.com/google-pytorch/torch_tpu)  
 
 ---
-### > Building [PicadoLabs](picadolabs.me) 
-*(6.4k+ downloads, 42+ contributors)*
+### > Building [PicadoLabs](https://picadolabs.me) 
+*(7k+ downloads, 42+ contributors)*
 | System | Focus | Downloads | Contributors | Issues |
 | :--- | :--- | :---: | :---: | :---: |
-| [**ai-model-router**](https://github.com/PicadoLabs/ai-model-router) | Cost-aware LLM routing & RL gateway | `3.4k+` | `13+` | [Contribute now](https://github.com/PicadoLabs/ai-model-router/issues) |
-| [**build-with-ai**](https://github.com/PicadoLabs/build-with-ai) | Zero-API deterministic SDLC CLI | `1.4k+` | `28+` | [Contribute now](https://github.com/PicadoLabs/build-with-ai/issues) |
-| [**terminal-agent**](https://github.com/PicadoLabs/terminal-agent) | Verify-first sandboxed coding agent | `1.1k+` | `4+` | [Contribute now](https://github.com/PicadoLabs/terminal-agent/issues) |
+| [**ai-model-router**](https://github.com/PicadoLabs/ai-model-router) | Cost-aware LLM routing & RL gateway | `4k+` | `12+` | [Contribute now](https://github.com/PicadoLabs/ai-model-router/issues) |
+| [**build-with-ai**](https://github.com/PicadoLabs/build-with-ai) | Zero-API deterministic SDLC CLI | `1.4k+` | `29+` | [Contribute now](https://github.com/PicadoLabs/build-with-ai/issues) |
+| [**terminal-agent**](https://github.com/PicadoLabs/terminal-agent) | Verify-first sandboxed coding agent | `1.1k+` | `3+` | [Contribute now](https://github.com/PicadoLabs/terminal-agent/issues) |
 | [**agent-bench**](https://github.com/PicadoLabs/agent-bench) | Multi-turn coding agent eval suite | `550+` | `4+` | [Contribute now](https://github.com/PicadoLabs/agent-bench/issues) |
 
 ---
 ### > *Open Source Contributions*
 <details>
-<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b>Apache Magpie</b></summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache" /> <b>Apache Magpie</b> (52 Merged PRs, 13 Issues)</summary>
 
 <br>
 
@@ -36,15 +36,18 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 | **CI Multi-Batch Test Normalization** | Supported stdin `-` and normalized Windows path separators in `ci-pytest-batches.py`, resolving silent test drops on cross-platform CI pipelines | [#1767](https://github.com/apache/magpie/pull/1767) (closes [#1766](https://github.com/apache/magpie/issues/1766)) |
 | **Setup Doctor Probe Memory Caching** | Held diagnostic doctor probe 3 and 5 outputs in memory with regression tests to prevent repeated subprocess re-probing | [#1776](https://github.com/apache/magpie/pull/1776) (closes [#1775](https://github.com/apache/magpie/issues/1775)) |
 | **LLM Token Optimization** | Reduced skill body tokens by ~20% and cut always-on system prompt frontmatter by ~50% (~350 tokens/turn saved) across contributor growth skills | [#1487](https://github.com/apache/magpie/pull/1487), [#1489](https://github.com/apache/magpie/pull/1489), [#1481](https://github.com/apache/magpie/pull/1481), [#1482](https://github.com/apache/magpie/pull/1482), [#1483](https://github.com/apache/magpie/pull/1483) |
-| **PR Management & Review Findings UI** | Built live session feeds, review findings data model parser, and interactive UI component mods for PR management workflow | [#1920](https://github.com/apache/magpie/pull/1920), [#1954](https://github.com/apache/magpie/pull/1954), [#1992](https://github.com/apache/magpie/pull/1992) |
-| **Release Management Live Checklist Pane** | Engineered `verify-rc` live checklist pane mod scaffolding and UI component for release candidate verification | [#2007](https://github.com/apache/magpie/pull/2007) |
+| **PR Management, Pairing & Review UI** | Built side-by-side multi-agent review comparison pane (`pairing` skill wiring & file IPC), live session feeds, review findings data model parser, findings pane curation hooks, and issue duplicate-picker mod | [#2323](https://github.com/apache/magpie/pull/2323), [#2274](https://github.com/apache/magpie/pull/2274), [#2076](https://github.com/apache/magpie/pull/2076), [#2005](https://github.com/apache/magpie/pull/2005), [#1992](https://github.com/apache/magpie/pull/1992), [#1954](https://github.com/apache/magpie/pull/1954), [#1920](https://github.com/apache/magpie/pull/1920) |
+| **Live Progress Bands & Telemetry Mods** | Engineered live token-cost & context meter band, commit attribution mod for Claude Code, and sweep progress/vote-tally bands for issue sweeps, PR triage sweeps, and active release voting | [#2272](https://github.com/apache/magpie/pull/2272), [#2237](https://github.com/apache/magpie/pull/2237), [#2234](https://github.com/apache/magpie/pull/2234), [#2221](https://github.com/apache/magpie/pull/2221), [#2216](https://github.com/apache/magpie/pull/2216) |
+| **Release Management Live Checklist Pane** | Engineered `verify-rc` live checklist pane mod scaffolding, tool-call feed, and skill integration for release candidate verification | [#2013](https://github.com/apache/magpie/pull/2013) (closes [#2006](https://github.com/apache/magpie/issues/2006)), [#2007](https://github.com/apache/magpie/pull/2007) |
+| **Sandbox, Security & Hook Hardening** | Hardened `security-model-verify` (`model_pr.py` dry-run & workdir path validation), split `isolated.configured()` into `installed()` and `sandbox_active()`, aligned MCP permission audits, and added `step-hook-manager-shim` eval suite | [#2152](https://github.com/apache/magpie/pull/2152), [#2146](https://github.com/apache/magpie/pull/2146), [#2022](https://github.com/apache/magpie/pull/2022), [#1892](https://github.com/apache/magpie/pull/1892), [#1838](https://github.com/apache/magpie/pull/1838) |
+| **CI Head Verification & Cross-Platform Tooling** | Verified PR head commit CI status check rollups with secondary confirmation, normalized Windows POSIX workspace paths, and refined family-plugin checkout tests | [#2072](https://github.com/apache/magpie/pull/2072), [#2061](https://github.com/apache/magpie/pull/2061), [#2104](https://github.com/apache/magpie/pull/2104), [#2313](https://github.com/apache/magpie/pull/2313), [#1856](https://github.com/apache/magpie/pull/1856) |
 | **Code Review & Quality Assurance** | Conducted architectural and security code reviews on Discourse bridge transport security boundaries ([#1755](https://github.com/apache/magpie/pull/1755)), triage staleness prompt fixes ([#1753](https://github.com/apache/magpie/pull/1753)), transient retry backoff ([#1752](https://github.com/apache/magpie/pull/1752)), Bitbucket approval writes ([#1746](https://github.com/apache/magpie/pull/1746)), CI workspace test failure enforcement ([#1807](https://github.com/apache/magpie/pull/1807)), and local archive read boundaries ([#1811](https://github.com/apache/magpie/pull/1811)) | [#1755](https://github.com/apache/magpie/pull/1755), [#1753](https://github.com/apache/magpie/pull/1753), [#1752](https://github.com/apache/magpie/pull/1752), [#1746](https://github.com/apache/magpie/pull/1746), [#1807](https://github.com/apache/magpie/pull/1807), [#1811](https://github.com/apache/magpie/pull/1811), [#1701](https://github.com/apache/magpie/pull/1701), [#1673](https://github.com/apache/magpie/pull/1673) |
 | **First-Run Setup Guides & CLI Robustness** | Added welcome onboarding guides for contributor-growth and utilities families, and fixed non-interactive TTY crashes in Vulnogram setup | [#1702](https://github.com/apache/magpie/pull/1702), [#1669](https://github.com/apache/magpie/pull/1669), [#1742](https://github.com/apache/magpie/pull/1742) |
 
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b>Microsoft PyRIT</b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft" /> <b>Microsoft PyRIT</b> (34 Merged PRs, 24 Issues)</summary>
 
 <br>
 
@@ -57,22 +60,22 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 | **XSS Executable Data URI Detection** | Expanded `XSSOutputScorer` to detect executable and script-bearing data URIs across SVG (`image/svg+xml`) and JavaScript MIME types (`text/javascript`, `application/javascript`, `application/x-javascript`, `text/ecmascript`) across HTML tags, markdown links/images, and form actions with strict boundary safeguards | [#3400](https://github.com/microsoft/PyRIT/pull/3400) (closes [#3399](https://github.com/microsoft/PyRIT/issues/3399)) |
 | **AI & Cloud Credential Leak Detection** | Added detection patterns for OpenAI, Anthropic, and Hugging Face API keys as well as modern GitHub fine-grained PATs (`github_pat_`) in `CredentialLeakScorer` | [#3286](https://github.com/microsoft/PyRIT/pull/3286), [#3236](https://github.com/microsoft/PyRIT/pull/3236) (closes [#3285](https://github.com/microsoft/PyRIT/issues/3285), [#3235](https://github.com/microsoft/PyRIT/issues/3235)) |
 | **Piped Shell & Azure Exfiltration Detection** | Expanded `ShellCommandOutputScorer` to detect piped execution across modern shells (`zsh`, `dash`, PowerShell, `pwsh`, `iex`) and Azure CLI / environment exfiltration patterns | [#3308](https://github.com/microsoft/PyRIT/pull/3308) (closes [#3307](https://github.com/microsoft/PyRIT/issues/3307)) |
-| **Windows Canonical Path Traversal Scorer** | Added canonical Windows proof-of-concept targets `win.ini` and IIS `web.config` with URL-encoded dot handling and strict file-end boundary validation in `PathTraversalOutputScorer` | [#3488](https://github.com/microsoft/PyRIT/pull/3488) (fixes [#3487](https://github.com/microsoft/PyRIT/issues/3487)) |
+| **Windows Canonical Path Traversal & Key Scorer** | Added canonical Windows proof-of-concept targets `win.ini` and IIS `web.config` with URL-encoded dot handling, strict file-end boundary validation, and modern OpenSSH private key detection in `PathTraversalOutputScorer` | [#3488](https://github.com/microsoft/PyRIT/pull/3488), [#4233](https://github.com/microsoft/PyRIT/pull/4233) (fixes [#3487](https://github.com/microsoft/PyRIT/issues/3487), [#4232](https://github.com/microsoft/PyRIT/issues/4232)) |
 | **SSTI & XXE Vulnerability Scorers** | Added multi-engine RCE detection for template injection (FreeMarker, Velocity, Twig, Spring/SpEL) in `SSTIOutputScorer` and direct external DTD / netdoc / gopher URI detection in `XXEOutputScorer` | [#3541](https://github.com/microsoft/PyRIT/pull/3541), [#3486](https://github.com/microsoft/PyRIT/pull/3486) (fixes [#3540](https://github.com/microsoft/PyRIT/issues/3540), [#3485](https://github.com/microsoft/PyRIT/issues/3485)) |
 | **Package Hallucination Scorer** | Added extraction of Ruby gems required via subpaths or with parentheses in `PackageHallucinationScorer` | [#3693](https://github.com/microsoft/PyRIT/pull/3693) (fixes [#3692](https://github.com/microsoft/PyRIT/issues/3692)) |
 | **Concurrent Scenario Isolation & Target Normalization** | Rejected concurrent SDK scenario runs with atomic attempt accounting, and enforced matching normalizer templates in `RoundRobinTarget` | [#3774](https://github.com/microsoft/PyRIT/pull/3774), [#3768](https://github.com/microsoft/PyRIT/pull/3768) |
-| **Adversarial Scorer Bypass Fixes** | Extended `SSRFOutputScorer` to detect full `127.0.0.0/8` loopback block; eliminated comment syntax bypasses in `SQLInjectionOutputScorer`; and added `user:password` and IPv4 support to `OpenRedirectOutputScorer` | [#3234](https://github.com/microsoft/PyRIT/pull/3234), [#3230](https://github.com/microsoft/PyRIT/pull/3230), [#3260](https://github.com/microsoft/PyRIT/pull/3260) (closes [#3233](https://github.com/microsoft/PyRIT/issues/3233), [#3204](https://github.com/microsoft/PyRIT/issues/3204), [#3259](https://github.com/microsoft/PyRIT/issues/3259)) |
-| **Adversarial Converters & Text Normalization** | Normalized newlines and tabs in `MathObfuscationConverter`, stripped punctuation before spacing in `CharacterSpaceConverter`, and added configurable `safe` parameter to `UrlConverter` | [#4060](https://github.com/microsoft/PyRIT/pull/4060), [#4044](https://github.com/microsoft/PyRIT/pull/4044), [#3402](https://github.com/microsoft/PyRIT/pull/3402) |
+| **Adversarial Scorer Bypass Fixes** | Extended `SSRFOutputScorer` to detect full `127.0.0.0/8` loopback block; eliminated comment syntax bypasses and added time-based blind SQLi/RCE detection in `SQLInjectionOutputScorer`; and added `user:password` and IPv4 support to `OpenRedirectOutputScorer` | [#4380](https://github.com/microsoft/PyRIT/pull/4380), [#3234](https://github.com/microsoft/PyRIT/pull/3234), [#3230](https://github.com/microsoft/PyRIT/pull/3230), [#3260](https://github.com/microsoft/PyRIT/pull/3260) (closes [#3233](https://github.com/microsoft/PyRIT/issues/3233), [#3204](https://github.com/microsoft/PyRIT/issues/3204), [#3259](https://github.com/microsoft/PyRIT/issues/3259)) |
+| **Adversarial Converters & Text Normalization** | Normalized newlines and tabs in `MathObfuscationConverter`, stripped punctuation before spacing in `CharacterSpaceConverter`, validated regex replacement templates in `SearchReplaceConverter`, added case-insensitive pre-flight check in `DenylistConverter`, and added configurable `safe` parameter to `UrlConverter` | [#4077](https://github.com/microsoft/PyRIT/pull/4077), [#4062](https://github.com/microsoft/PyRIT/pull/4062), [#4060](https://github.com/microsoft/PyRIT/pull/4060), [#4044](https://github.com/microsoft/PyRIT/pull/4044), [#3402](https://github.com/microsoft/PyRIT/pull/3402) (fixes [#4076](https://github.com/microsoft/PyRIT/issues/4076), [#4061](https://github.com/microsoft/PyRIT/issues/4061)) |
 | **RFC 9110 HTTPTarget Byte-Length Fix** | Stripped hop-by-hop framing headers (`Transfer-Encoding` & `Content-Length`) in `HTTPTarget`, preventing payload truncation on multilingual and emoji adversarial prompts | [#3008](https://github.com/microsoft/PyRIT/pull/3008) |
 | **Attack Technique Factory** | Extracted dynamic reflection and cached parameter discovery in `MatrixAtomicAttackBuilder` and technique resolution | [#2879](https://github.com/microsoft/PyRIT/pull/2879), [#2795](https://github.com/microsoft/PyRIT/pull/2795) (closes [#2869](https://github.com/microsoft/PyRIT/issues/2869)) |
 | **Multi-Process CI Test Isolation** | Resolved MOSSBench and VLSU SQLite memory collisions in CI by enforcing isolated in-memory fixtures | [#2781](https://github.com/microsoft/PyRIT/pull/2781) (fixes [#2775](https://github.com/microsoft/PyRIT/issues/2775)) |
 | **Image Converter CMYK Fix & Validation** | Handled CMYK color mode conversion in `BaseImageToImageConverter` when output format is PNG, added eager n-gram size validation, and disallowed empty split separators | [#3258](https://github.com/microsoft/PyRIT/pull/3258), [#2911](https://github.com/microsoft/PyRIT/pull/2911), [#2912](https://github.com/microsoft/PyRIT/pull/2912) |
-| **Frontend Type Safety** | Adopted `noUncheckedIndexedAccess` in frontend configuration | [#3982](https://github.com/microsoft/PyRIT/pull/3982) |
+| **Frontend Type Safety** | Adopted `noUncheckedIndexedAccess` and `exactOptionalPropertyTypes` in frontend configuration | [#4421](https://github.com/microsoft/PyRIT/pull/4421), [#3982](https://github.com/microsoft/PyRIT/pull/3982) (fixes [#3729](https://github.com/microsoft/PyRIT/issues/3729)) |
 
 </details>
 
 <details>
-<summary><img src="https://github.com/google.png?size=40" width="18" height="18" alt="Google" /> <b>Google PyTorch TPU</b></summary>
+<summary><img src="https://github.com/google.png?size=40" width="18" height="18" alt="Google" /> <b>Google PyTorch TPU</b> (6 Issues)</summary>
 
 <br>
 
@@ -87,7 +90,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/vllm-project.png?size=40" width="18" height="18" alt="vLLM" /> <b>vLLM Semantic Router</b></summary>
+<summary><img src="https://github.com/vllm-project.png?size=40" width="18" height="18" alt="vLLM" /> <b>vLLM Semantic Router</b> (1 Merged PR, 4 Issues)</summary>
 
 <br>
 
@@ -102,7 +105,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b>dynavec</b></summary>
+<summary><img src="https://github.com/codeforstartups.png?size=40" width="18" height="18" alt="Dynavec" /> <b>dynavec</b> (22 Merged PRs, 4 Issues)</summary>
 
 <br>
 
@@ -128,7 +131,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
   <summary>Other Organisations</summary>
 
 <details>
-<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b>SQLite Graph Memory</b></summary>
+<summary><img src="https://github.com/tonydzi.png?size=40" width="18" height="18" alt="SQLite Graph Memory" /> <b>SQLite Graph Memory</b> (6 Merged PRs, 5 Issues)</summary>
 
 <br>
 
@@ -148,7 +151,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b>Apache Airflow</b></summary>
+<summary><img src="https://github.com/apache.png?size=40" width="18" height="18" alt="Apache Airflow" /> <b>Apache Airflow</b> (2 Merged PRs)</summary>
 
 <br>
 
@@ -164,7 +167,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft AGT" /> <b>Microsoft Agent Governance Toolkit</b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft AGT" /> <b>Microsoft Agent Governance Toolkit</b> (1 Issue)</summary>
 
 <br>
 
@@ -178,7 +181,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft Agent Framework" /> <b>Microsoft Agent Framework</b></summary>
+<summary><img src="https://github.com/microsoft.png?size=40" width="18" height="18" alt="Microsoft Agent Framework" /> <b>Microsoft Agent Framework</b> (1 Issue)</summary>
 
 <br>
 
@@ -191,7 +194,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/phasespace-labs.png?size=40" width="18" height="18" alt="Palinode" /> <b>Palinode</b></summary>
+<summary><img src="https://github.com/phasespace-labs.png?size=40" width="18" height="18" alt="Palinode" /> <b>Palinode</b> (3 Merged PRs)</summary>
 
 <br>
 
@@ -206,7 +209,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/pangular-inspector.png?size=40" width="18" height="18" alt="Angular DevTools" /> <b>Angular DevTools</b></summary>
+<summary><img src="https://github.com/pangular-inspector.png?size=40" width="18" height="18" alt="Angular DevTools" /> <b>Angular DevTools</b> (3 Merged PRs, 2 Issues)</summary>
 
 <br>
 
@@ -221,7 +224,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/santoshyadavdev.png?size=40" width="18" height="18" alt="Monorepo Doctor" /> <b>Monorepo Doctor</b></summary>
+<summary><img src="https://github.com/santoshyadavdev.png?size=40" width="18" height="18" alt="Monorepo Doctor" /> <b>Monorepo Doctor</b> (1 Merged PR, 1 Issue)</summary>
 
 <br>
 
@@ -234,7 +237,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/PhilanthroPy-Project.png?size=40" width="18" height="18" alt="PhilanthroPy" /> <b>PhilanthroPy</b></summary>
+<summary><img src="https://github.com/PhilanthroPy-Project.png?size=40" width="18" height="18" alt="PhilanthroPy" /> <b>PhilanthroPy</b> (1 Merged PR)</summary>
 
 <br>
 
@@ -247,7 +250,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/layer5io.png?size=40" width="18" height="18" alt="Layer5" /> <b>Layer5 Academy</b></summary>
+<summary><img src="https://github.com/layer5io.png?size=40" width="18" height="18" alt="Layer5" /> <b>Layer5 Academy</b> (3 Merged PRs, 4 Issues)</summary>
 
 <br>
 
@@ -263,7 +266,7 @@ I build **AI agents** and **developer tools**, work on **LLM security**, and act
 </details>
 
 <details>
-<summary><img src="https://github.com/meshery-extensions.png?size=40" width="18" height="18" alt="TCS Labs" /> <b>TCS Labs Academy</b></summary>
+<summary><img src="https://github.com/meshery-extensions.png?size=40" width="18" height="18" alt="TCS Labs" /> <b>TCS Labs Academy</b> (1 Merged PR)</summary>
 
 <br>
 
